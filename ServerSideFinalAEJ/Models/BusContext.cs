@@ -8,7 +8,7 @@ namespace ServerSideFinalAEJ.DAL
         public BusContext() : base("BusContext")
         {
         }
-        public DbSet<Order> Orders { get; set; }
+        public DbSet<ManageCustomersOrders> Orders { get; set; }
         //need DbSet for other classes
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
